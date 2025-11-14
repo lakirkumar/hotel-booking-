@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Maindiv{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    padding-left: 80px;
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+#allcities:hover{
+    color: red;
+
+}
+.property{
+    height: 69px;
+    width: 219.53px;
+    background-color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px #f1ebeb;
+    margin-left: 250px;
+
+    
+}
+.property1{
+    height:50px ;
+    width: 198.53px;
+    padding: 8px 8px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+   
+}
+
+#earning{
+    height: 14px;
+    width: 132px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color:rgb(151, 150, 150);
+}
+
+.booknow{
+    height: 69px;
+    width: 195.53px;
+    background-color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px #f1ebeb;
+
+    
+}
+.booknow1{
+    height:50px ;
+    width: 174.75px;
+    padding: 8px 8px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+#call{
+    height: 14px;
+    width: 132px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(151, 150, 150);
+    border-right: solid 1px #f1ebeb;
+}
+
+.language{
+    height: 69px;
+    width: 195.53px;
+    background-color:white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px #f1ebeb;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    width: 210px;
+    background-color: white;
+}
+.location{
+    color: black;
+}
+
+ .dropdown {
+      position: relative;
+      height: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .dropdown:hover{
+        background-color: white;
+    }
+
+    .dropdown button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: white;
+      min-width: 220px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      padding: 15px;
+      z-index: 100;
+    }
+
+    .dropdown-content h4 {
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 5px 0;
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      font-family: sans-serif;
+    }
+
+    .dropdown-content a:hover {
+      color: red;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+.contaner{
+    height: 230px;
+    background-color: rgb(82, 82, 77);
+    padding: 10px 0px 32px;
+    margin: 0px 0px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #333;
+
+}
+.contaner-bar{
+    height: 60px;
+    width: 840px;
+    border-radius:5px;
+    background-color: rgb(74, 100, 122);
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 32px;
+    margin: 16px 0px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+}
+.sb{
+    background-color: #1ab64f;
+    height: 58px;
+    width: 165px;
+    border: none;
+    border-radius: 0px 5px 5px 0px ;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+
+}
+.sb:hover{
+    background-color: green;
+}
+.find-hotel{
+    width: 315.15px;
+    height: 58px;
+    border-radius: 5px 0px 0px 5px ;
+    font-size: 15px;
+    border: none;
+    border-right: solid 1px black;
+    
+}
+.date{
+    width: 190.56px;
+    height: 58px;
+    padding: 0px 0px 0px 16px;
+    border: none;
+    border-right: solid 1px black;
+
+}
+.room{
+    height: 58px;
+    width: 151.19px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+}
+.banner{
+    height: 250.61px;
+    margin: 32px 0px;
+    padding: 0px 80px;
+
+}
+.banner2{
+    height: 250.61px;
+    margin: 64px 0px 32px;
+    padding: 0px 80px;
+
+}
+
+.language:hover{
+    background-color: #f1ebeb;
+}
+.login:hover{
+    background-color: #f1ebeb;
+}
+.dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 15px;
+      width: 250px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 10;
+    }
+
+    .room-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    .counter {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .counter button {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #ccc;
+      background: #f5f5f5;
+      cursor: pointer;
+    }
+
+   /*footer*/
+   .footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 20px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-section h3, 
+.footer-section h4 {
+    margin-bottom: 15px;
+    color: #f9c74f; /* golden highlight */
+}
+
+.footer-section p, 
+.footer-section a {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #f9c74f;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #aaa;
+}
